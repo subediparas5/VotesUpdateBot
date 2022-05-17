@@ -10,7 +10,7 @@ var balen = '';
 const PORT = 8000;
 
 var ii = 0
-var minutes = 5, the_interval = minutes * 60 * 1000;
+var minutes = 1, the_interval = minutes * 60 * 1000;
 setInterval(async function () {
     axios(url)
         .then(
