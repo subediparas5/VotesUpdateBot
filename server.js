@@ -88,7 +88,7 @@ setInterval(async function () {
                     //     deputy_loop_total += Number(deputy_data[i].votes)
                     // }
                     // deputy_text += `Others:${total_deputy_votes - deputy_loop_total}:(${(Number(total_deputy_votes - deputy_loop_total) / Number(total_deputy_votes) * 100).toFixed(2)}%)`
-                    let tweetText = `KTM Metro Mayor:\n\n${mayor_text}\n${'-'.repeat([35])}\nTotal Votes Counted: ${numberWithCommas(total_mayor_votes)}\n\nBot Generated!\nSource: @eKantipur_com#LocalElections2022\n#LocalElections2079`
+                    let tweetText = `KTM Metro Mayor:\n\n${mayor_text}\n${'-'.repeat([35])}\nTotal Votes Counted: ${numberWithCommas(total_mayor_votes)}\n\nBot Generated!\nSource: eKantipur\n#LocalElections2022\n#LocalElections2079`
                     console.log(tweetText);
                     let tweet = async () => {
                         try {
