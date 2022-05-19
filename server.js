@@ -9,7 +9,7 @@ const url = 'https://localelection.ekantipur.com/pradesh-3/district-kathmandu/ka
 const PORT = 8000;
 
 let ii = 0
-var minutes = .1, the_interval = minutes * 60 * 1000;
+var minutes = 1, the_interval = minutes * 60 * 1000;
 let highest_mayor_votes = ''
 setInterval(async function () {
     axios(url)
