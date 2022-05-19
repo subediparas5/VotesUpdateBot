@@ -97,7 +97,7 @@ setInterval(async function () {
                             console.log(err);
                         }
                     }
-                    // tweet()
+                    tweet()
                 }
             }
         )
