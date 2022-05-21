@@ -26,8 +26,8 @@ setInterval(async function () {
 
 
                 $('.candidate-meta-wrapper', mayor_substring).each(async function () {
-                    var candidate_name = $(this).find('.candidate-meta').find('.candidate-name').text()
-                    var candidate_party = $(this).find('.candidate-meta').find('.candidate-party-name').text()
+                    var candidate_name = $(this).find('.candidate-name').text()
+                    var candidate_party = $(this).find('.candidate-party-name').text()
                     var votes = $(this).find('.vote-numbers').text()
                     total_mayor_votes += Number(votes)
                     mayor_data.push({
